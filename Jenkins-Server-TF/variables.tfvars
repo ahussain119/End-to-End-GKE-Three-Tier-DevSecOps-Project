@@ -1,0 +1,11 @@
+project = "jenkins-proj1"
+region = "us-central1"
+vpc_name = "jenkins"
+ip_cidr_range = "10.0.0.0/24"
+subnet_name = "jenkins-subnet"
+route_name = "jenkins-route"
+instance_name = "jenkins-instance"
+zone = "us-central1-f"
+machine_type = "n1-standard-8"
+image = "ubuntu-os-cloud/ubuntu-2204-lts"
+disk_size = 30
