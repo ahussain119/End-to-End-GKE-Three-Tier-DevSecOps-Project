@@ -25,7 +25,7 @@ spec:
       - name: gcr-registry-secret
       containers:
       - name: frontend
-        image: us-central1-docker.pkg.dev/jenkins-proj1/frontend-repo/frontend:1
+        image: us-central1-docker.pkg.dev/jenkins-proj1/frontend-repo/frontend:2
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
