@@ -9,5 +9,6 @@ spec:
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
-  hostPath:
-    path: /data/db
+  gcePersistentDisk:
+    pdName: mongo-disk
+    fsType: ext4
