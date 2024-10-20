@@ -44,6 +44,7 @@ sudo apt-get update && sudo apt-get install google-cloud-cli
 #!/bin/bash
 sudo apt-get update
 sudo apt-get install -y kubectl
+sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 
 # Installing Terraform
 #!/bin/bash
