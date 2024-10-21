@@ -41,3 +41,11 @@ variable "image" {
 variable "disk_size" {
   
 }
+
+variable "pv_disk_name" {
+  
+}
+
+variable "pv_disk_size" {
+  
+}

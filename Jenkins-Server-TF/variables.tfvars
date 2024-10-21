@@ -9,3 +9,5 @@ zone = "us-central1-f"
 machine_type = "n1-standard-8"
 image = "ubuntu-os-cloud/ubuntu-2204-lts"
 disk_size = 30
+pv_disk_name = "mongo-disk"
+pv_disk_size = 10
