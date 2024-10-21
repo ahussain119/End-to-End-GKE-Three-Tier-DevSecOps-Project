@@ -59,6 +59,6 @@ spec:
           httpGet:
             path: /started
             port: 3500
-          initialDelaySeconds: 0
+          initialDelaySeconds: 3
           periodSeconds: 10
           failureThreshold: 30
