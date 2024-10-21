@@ -11,4 +11,4 @@ spec:
     - ReadWriteOnce
   gcePersistentDisk:
     pdName: mongo-disk
-    fsType: ext4
+  storageClassName: standard
